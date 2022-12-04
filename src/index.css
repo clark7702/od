@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signin-card {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 55%);
+  box-shadow: 0 2px 3px rgb(0 0 0 / 55%);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 44px;
+  /* min-height: 338px; */
+  min-width: 320px;
+  max-width: 440px;
+  width: calc(100% - 40px);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+a:hover {
+  text-decoration: underline;
+}
